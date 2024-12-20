@@ -1,0 +1,10 @@
+{
+    "secureProfileEnabled":"${SECURE_PROFILE:true}",
+    "robustExceptionEnabled": "${REBUST_EXCEPTIONS:false}",
+    "adminPassword": "${ADMIN_PASSWORD:admin}",
+    "cfmappings": {
+        "/tests": {
+            "physical": "../ToDoApi.CF.Test"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.data
+.vscode
+coldbox
+lib
+modules
+resources
+.cfconfig.json
+.cfmigrations.json
+.env
+.env.example
+.gitignore
+LICENSE
+README.md
+testbox
+.dockerignore
+Dockerfile

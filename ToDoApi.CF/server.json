@@ -1,0 +1,22 @@
+{
+    "openBrowser":false,
+    "dockEnable":false,
+    "trayEnable":false,
+    "app":{
+        "cfengine":"${CFENGINE:lucee@6.0.1.0}",
+        "libDirs":"lib\\sqlite-jdbc"
+    },
+    "web":{
+        "rewrites":{
+            "enable":true
+        },
+        "host":"0.0.0.0",
+        "http":{
+            "port":5002
+        },
+        "aliases":{
+            "/tests":"../ToDoApi.CF.Test"
+        }
+    },
+    "scripts":{}
+}

@@ -1,0 +1,33 @@
+{
+    "name":"TodoApi.CF Tests",
+    "JVM":{
+        "heapSize":"512"
+    },
+    "app":{
+        "cfengine":"${CFENGINE:lucee@6.0.1.0}",
+        "libDirs":"..\\TodoApi.CF\\lib\\sqlite-jdbc"
+    },
+    "env":{
+        "DB_CLASS":"org.sqlite.JDBC",
+        "DB_DSN":"jdbc:sqlite:./ToDoTest.db",
+        "DB_NAME":"",
+        "DB_HOST":"",
+        "DB_PORT":"",
+        "DB_USER":"",
+        "DB_PASSWORD":"",
+        "DB_GRAMMAR":"SQLiteGrammar",
+        "DB_SCHEMA":"",
+        "DB_TYPE":""
+    },
+    "cfconfig":{
+        "file":"../TodoApi.CF/.cfconfig.json"
+    },
+    "web":{
+        "rewrites":{
+            "enable":true
+        },
+        "aliases":{
+            "/app":"../TodoApi.CF"
+        }
+    }
+}

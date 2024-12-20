@@ -1,0 +1,21 @@
+{
+    "name":"ToDo.CF Tests",
+    "author":"Jason Steinshouer",
+    "private":true,
+    "dependencies":{
+
+    },
+    "devDependencies":{
+        "testbox":"^5.3.1+6",
+        "commandbox-migrations":"*"
+    },
+    "installPaths":{
+        "testbox":"testbox/"
+    },
+    "scripts":{},
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}

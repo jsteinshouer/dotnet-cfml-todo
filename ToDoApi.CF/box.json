@@ -1,0 +1,40 @@
+{
+    "name":"ToDo",
+    "author":"Jason Steinshouer",
+    "private":true,
+    "dependencies":{
+        "coldbox":"^7.1.0+10",
+        "cbstorages":"3.0.1",
+        "BCrypt":"3.1.0",
+        "nbvcxz-1.5.1":"jar:https://github.com/GoSimpleLLC/nbvcxz/releases/download/1.5.1/nbvcxz-1.5.1.jar",
+        "core-3.5.1":"jar:https://repo1.maven.org/maven2/com/google/zxing/core/3.5.1/core-3.5.1.jar",
+        "javase-3.5.1":"jar:https://repo1.maven.org/maven2/com/google/zxing/javase/3.5.1/javase-3.5.1.jar",
+        "sqlite-jdbc":"jar:https://github.com/xerial/sqlite-jdbc/releases/download/3.44.0.0/sqlite-jdbc-3.44.0.0.jar",
+        "quick":"^7.2.0",
+        "cf-jwt-simple":"1.3.0",
+        "cfmigrations":"^4.1.2"
+    },
+    "devDependencies":{
+        "testbox":"^5.3.1+6",
+        "commandbox-migrations":"*"
+    },
+    "installPaths":{
+        "coldbox":"coldbox/",
+        "cbstorages":"modules/cbstorages/",
+        "BCrypt":"modules/BCrypt/",
+        "nbvcxz-1.5.1":"lib/nbvcxz/",
+        "testbox":"testbox/",
+        "core-3.5.1":"lib/zxing/core-3.5.1/",
+        "javase-3.5.1":"lib/zxing/javase-3.5.1/",
+        "cfmigrations":"modules/cfmigrations/",
+        "sqlite-jdbc":"lib/sqlite-jdbc/",
+        "quick":"modules/quick/",
+        "cf-jwt-simple":"lib/jwt/"
+    },
+    "scripts":{},
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
